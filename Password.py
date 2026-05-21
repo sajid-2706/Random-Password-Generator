@@ -13,7 +13,7 @@ y=int(input("Number of Symbols :"))
 z=int(input("Number of Numbers :"))
 # initializing an empty list to store the characters of the generated password
 nword=[]
-# generating the password based on the user's choice and shuffling the characters to create a random password
+# checking if the total length of the password is between 4 and 16 characters, and generating the password accordingly
 if 4<=x+y+z<=16:
     for i in range(x):
         nword.append(r.choice(string))
